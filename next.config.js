@@ -1,8 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  experimental: {
-    appDir: true,
+export default {
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: 'src/app/dashboard',
+        permanent: true,
+      },
+    ]
   },
 }
-
-export default nextConfig
