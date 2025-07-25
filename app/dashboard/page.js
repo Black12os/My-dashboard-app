@@ -1,7 +1,7 @@
-import Sidebar from '@/components/Sidebar/Sidebar'
-import Header from '@/components/Header/Header'
-import Card from '@/components/Card/Card'
-import Chart from '@/components/Chart/Chart'
+import Sidebar from './components/Sidebar/Sidebar'
+import Header from './components/Header/Header'
+import Card from './components/Card/Card'
+import Chart from './components/Chart/Chart'
 import { Users, ShoppingCart, DollarSign, TrendingUp } from 'lucide-react'
 import styles from './page.module.css'
 

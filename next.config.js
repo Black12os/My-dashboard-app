@@ -3,7 +3,7 @@ export default {
     return [
       {
         source: '/',
-        destination: 'src/app/dashboard',
+        destination: '/dashboard',
         permanent: true,
       },
     ]
